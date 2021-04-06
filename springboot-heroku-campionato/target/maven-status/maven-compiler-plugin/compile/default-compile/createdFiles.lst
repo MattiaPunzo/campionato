@@ -1,0 +1,5 @@
+it\begear\heroku\campionato\SpringbootHerokuCampionatoApplication.class
+it\begear\heroku\campionato\service\SquadreService.class
+it\begear\heroku\campionato\repository\SquadreRepository.class
+it\begear\heroku\campionato\controller\AppController.class
+it\begear\heroku\campionato\entity\Squadre.class
