@@ -32,7 +32,7 @@ public class AppController {
 	}
 
 	@RequestMapping("/new")
-	public String showNewProdotto(Model model) {
+	public String showNewSquadre(Model model) {
 		Squadre squadre = new Squadre();
 
 		model.addAttribute("squadre", squadre);
