@@ -33,8 +33,8 @@ table {
 	width:50%;
 }
 
-tr:nth-child(even) {background: #ff0000}
-tr:nth-child(odd) {background: #ff0000}
+tr:nth-child(even) {background: rgb(255, 255, 255)}
+tr:nth-child(odd) {background: rgb(255, 255, 255)}
 
 tr {
 	border-style:none;
