@@ -25,6 +25,7 @@ public class AppController {
 	public String viewHomePage(Model model, @Param("keyword") String keyword) {
 
 		List<Squadre> listSquadre = squadreservice.listAll(keyword);
+
 		model.addAttribute("listsquadre", listSquadre);
 		model.addAttribute("keyword", keyword);
 		return "index";
